@@ -1,3 +1,7 @@
+//
+// Utilities
+//
+
 $utilities: map-merge(
   $utilities,
   (
@@ -88,7 +92,9 @@ $utilities: map-merge(
 
 /* Background colors */
 .bg-super-light {
-  background-color: #fbfbfb;
+  --#{$prefix}bg-super-light: #fbfbfb;
+
+  background-color: var(--#{$prefix}bg-super-light);
 }
 
 /* Background attachment */
@@ -174,3 +180,37 @@ $utilities: map-merge(
     ),
   )
 );
+
+$utilities: map-merge(
+  $utilities,
+  (
+    'object-fit': (
+      property: object-fit,
+      class: object,
+      values: (
+        cover: cover,
+      ),
+    ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    'object-position': (
+      property: object-position,
+      class: object,
+      values: (
+        top: top,
+        center: center,
+        bottom: bottom,
+      ),
+    ),
+  )
+);
+
+@each $name, $color in $theme-colors {
+  .link-#{$name} {
+    transition: color 0.15s;
+  }
+}
