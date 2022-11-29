@@ -1,3 +1,6 @@
+<?php
+include('config.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,6 +14,8 @@
     <link rel="stylesheet" href="css/mdb.min.css">
   </head>
   <body>
+
+
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript"></script>
   </body>
