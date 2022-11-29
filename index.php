@@ -27,6 +27,13 @@ include('config.php');
       width:100%;
       z-index: -1;
     }
+    section.jumbotron .hero-trustpilot {
+      bottom:0;
+      left:-30px;
+      z-index:10;
+      transform:scale(.8,.8);
+      position:absolute;
+    }
     @media (min-width:768px) {
       section.jumbotron .polygon {
         clip-path:polygon(2500px 0,100% 0, 100% 100%, .3% 100%);
@@ -80,6 +87,11 @@ include('config.php');
       </div>
       <div class="col-lg-5 d-none d-lg-block">
         <img src="/img/showcase1.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-9">
+        <div class="hero-trustpilot rounded-9 bg-white p-4">
+          <img src="/img/trustpilot-light.png" class="img-fluid">
+          <img src="/img/stars/stars-4.svg" class="img-fluid">
+          <p class="small">TrustScore <strong>4.0</strong> | <strong>3</strong> reviews</p>
+        </div>
       </div>
     </div>
   </div>
