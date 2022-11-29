@@ -79,7 +79,7 @@ include('config.php');
         <p class="lead"><i class="fa-solid fa-check me-2"></i>No Hidden Fees</p>
       </div>
       <div class="col-lg-5 d-none d-lg-block">
-        <img src="/img/showcase1.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-10">
+        <img src="/img/showcase1.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-9">
       </div>
     </div>
   </div>
