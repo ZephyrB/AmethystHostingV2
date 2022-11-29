@@ -14,7 +14,7 @@ include('config.php');
     <link rel="stylesheet" href="css/mdb.min.css">
   </head>
   <body>
-  <nav class="navbar navbar-expanded-lg navbar-dark black">
+  <nav class="navbar navbar-expand-lg navbar-dark black">
     <div class="container">
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#n" aria-controls="n" aria-expanded="false" aria-label="Toggle Navigation">
         <i class="fas fa-bars"></i>
