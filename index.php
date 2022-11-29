@@ -22,6 +22,7 @@ include('config.php');
     }
     section.jumbotron .polygon {
       clip-path:polygon(1800px 0,100% 0, 100% 100%, .3% 100%);
+      background:linear-gradient(to right,#4b006b 0,#4b006b,#8a0052 100%);
       position:absolute;
       top:0;
       right:0;
@@ -71,6 +72,12 @@ include('config.php');
       transform:scale(1,1);
     }
     }
+    .cookies {
+      background-color:black;
+      color:#fff;
+      position:fixed;
+      bottom:0;
+    }
   </style>
 </head>
 <body class="bg-light text-black">
@@ -93,7 +100,7 @@ include('config.php');
 </nav>
 <!-- Jumbotron -->
 <section class="jumbotron">
-  <div class="polygon h-100 bg-primary"></div>
+  <div class="polygon h-100"></div>
   <div class="container py-3 py-md-5">
     <div class="row align-items-center">
       <div class="col-lg-7 col-md-10 col-12 mx-auto mb-4 mb-md-5 mb-lg-0 text-center text-lg-start">
@@ -135,6 +142,24 @@ include('config.php');
     </div>
   </div>
 </section>
+<?php
+if(!isset($_COOKIE['accepted'])) {
+?>
+<div class="container-fluid cookies p-5">
+  <div class="row">
+    <div class="col-lg-9 col-md-8">
+      <p class="h3 fw-bold">Hey there!</p>
+      <p class="m-0"><strong>We use cookies.</strong><br>Like almost every website, nowadays, we use cookies! To comply with laws,
+      we're asking if we're allowed to use some additional cookies that could 
+      make your experience with us better, like remembering your password.
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <a class="btn btn-secondary btn-block" href="?c=false">Essential Cookies Only</a>
+      <a class="btn btn-primary btn-block" href="?c=true">Allow Optional Cookies</a>
+    </div>
+  </div>
+</div>
+<?php } ?>
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <script type="text/javascript"></script>
 </body>
