@@ -108,10 +108,14 @@ include('config.php');
         <img src="/img/showcase1.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-9">
         <div class="hero-trustpilot rounded-9 bg-white p-4 position-absolute shadow">
           <div class="trustpilot-logo">
-            <img src="/img/trustpilot-light.png" class="img-fluid">
+            <a href="https://www.trustpilot.com/review/amethysthosting.co.uk" target="_blank">
+              <img src="/img/trustpilot-light.png" class="img-fluid">
+            </a>
           </div>
           <div class="trustpilot-stars">
-            <img src="/img/stars/stars-4.svg" class="img-fluid">
+            <a href="https://www.trustpilot.com/review/amethysthosting.co.uk" target="_blank">
+              <img src="/img/stars/stars-4.svg" class="img-fluid">
+            </a>
           </div>
           <p class="small m-0 text-muted">TrustScore <strong><?php echo $tp['score']; ?></strong> | <strong><?php echo $tp['of']; ?></strong> reviews</p>
         </div>
