@@ -23,4 +23,5 @@ if(!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
 
+$tp = Array('score'=>'4.0','of'=>3)
 ?>
