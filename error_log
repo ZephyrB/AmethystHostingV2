@@ -1,9 +1,0 @@
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/amethys1/dev.amethysthosting.co.uk/inc/head.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/amethys1/dev.amethysthosting.co.uk/inc/head.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/amethys1/dev.amethysthosting.co.uk/inc/head.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/amethys1/dev.amethysthosting.co.uk/inc/nav.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/amethys1/dev.amethysthosting.co.uk/inc/nav.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/amethys1/dev.amethysthosting.co.uk/inc/nav.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/amethys1/dev.amethysthosting.co.uk/inc/footer.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/amethys1/dev.amethysthosting.co.uk/inc/footer.php on line 1
-[30-Nov-2022 03:02:05 Europe/London] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/amethys1/dev.amethysthosting.co.uk/inc/footer.php on line 1

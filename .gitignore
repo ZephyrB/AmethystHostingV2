@@ -1,2 +1,3 @@
 
 inc/database.php
+error_log
