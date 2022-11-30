@@ -85,5 +85,5 @@ if(!isset($_COOKIE['accepted'])) {
   </div>
 </div>
 <?php } ?>
-<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="/js/mdb.min.js"></script>
 <script type="text/javascript"></script>
