@@ -3,9 +3,9 @@ include('inc/database.php'); // includes hidden database files
 if(isset($_GET['c'])) {
     $c = $_GET['c'];
     if($c) {
-        setcookie('accepted',true,time()+60*60*24*30,'/','.amethysthosting.co.uk');
+        setcookie('accepted',1,time()+60*60*24*30,'/','.amethysthosting.co.uk');
     } else {
-        setcookie('accepted',false,time()+60*60*24*30,'/','.amethysthosting.co.uk');
+        setcookie('accepted',0,time()+60*60*24*30,'/','.amethysthosting.co.uk');
     }
     Header("Location: ".explode('?',$_SERVER['REQUEST_URI'])[0]);
 }
