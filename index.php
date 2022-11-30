@@ -1,6 +1,6 @@
 <?php
 include('config.php');
-include('head.php');
+include('inc/head.php');
 ?>
 <body class="bg-light text-black">
 <?php include('inc/nav.php'); ?>
