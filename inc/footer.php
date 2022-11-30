@@ -1,4 +1,3 @@
-<?php include('../config.php'); ?>
 <footer class="bg-black text-white text-center text-lg-start">
   <div class="container p-4">
     <div class="row">

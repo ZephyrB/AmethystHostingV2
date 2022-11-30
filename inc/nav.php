@@ -1,4 +1,3 @@
-<?php include('../config.php'); ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-black">
   <div class="container">
   <a class="navbar-brand mt-2 mt-lg-0"><img src="/img/logo.png" height="45" alt="Amethyst Hosting" loading="lazy"></a>
