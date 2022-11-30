@@ -31,6 +31,9 @@ if(!empty($_SERVER['HTTP_CLIENT_IP'])) {
 } else {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
-
+// Get Page
+if($_SERVER['REQUEST_URI'] != '/') {
+    $p = explode('/', $_SERVER['REQUEST_URI'])[-1];
+}
 $tp = Array('score'=>'4.0','of'=>3)
 ?>

@@ -7,119 +7,12 @@ include('config.php');
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Amethyst Hosting</title>
+  <title>Amethyst Hosting<?php if(!isset($p)) { ?> - <?php echo $p; } ?></title>
   <link rel="icon" href="/img/icon.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Rubik:900');
-    :root {
-      --stroke-width: calc(1em / 6);
-      --font-size: 4rem;
-      --font-weight: 900;
-      --letter-spacing: calc(1em / 13);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-    .bg-primary-gradient {
-      background:linear-gradient(to right,#4b006b 0,#4b006b,#8a0052 100%);
-    }
-    section.jumbotron {
-      padding:0;
-      margin:0;
-      background:linear-gradient(to bottom,#e9e9e9 0,#fdfdfd,#fff 100%);
-      position:relative;
-      overflow:hidden;
-    }
-    section.jumbotron .polygon {
-      clip-path:polygon(1800px 0,100% 0, 100% 100%, .3% 100%);
-      position:absolute;
-      top:0;
-      right:0;
-      width:100%;
-    }
-    section.jumbotron .hero-trustpilot {
-      bottom:0;
-      left:-30px;
-      z-index:10;
-      transform:scale(.8,.8);
-    }
-    section.jumbotron .hero-trustpilot .trustpilot-logo {
-      max-width:140px;
-      margin-bottom:8px;
-    }
-    section.jumbotron .hero-trustpilot .trustpilot-stars {
-      max-width:240px;
-      margin-bottom:8px;
-    }
-    @media (min-width:768px) {
-      section.jumbotron .polygon {
-        clip-path:polygon(2500px 0,100% 0, 100% 100%, .3% 100%);
-        position:absolute;
-        top:0;
-        right:0;
-        width:100%;
-      }
-      section.jumbotron .hero-trustpilot {
-      bottom:0;
-      left:-30px;
-      z-index:10;
-      transform:scale(.8,.8);
-    }
-    }
-    @media (min-width:992px) {
-      section.jumbotron .polygon {
-        clip-path:polygon(310px 0,100% 0, 100% 100%, .3% 100%);
-        position:absolute;
-        top:0;
-        right:0;  
-        width:40%;
-      }
-      section.jumbotron .hero-trustpilot {
-      bottom:20px;
-      left:-15px;
-      z-index:10;
-      transform:scale(1,1);
-    }
-    }
-    .cookies {
-      background-color:black;
-      color:#fff;
-      position:fixed;
-      bottom:0;
-    }
-    .btn-primary {
-      background-color: var(--mdb-primary);
-      color:var(--mdb-gray-400);
-    }
-    .btn-primary:hover {
-      color:var(--mdb-light);
-      background-color: var(--mdb-primary);
-    }
-    .tld {
-      transition: all .5s ease;
-    }
-    .tld:hover {
-      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    }
-    h1 {
-      background-clip: text;
-      -webkit-background-clip: text;
-      background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
-      font-family: 'Rubik', sans-serif;
-      color:#fff;
-      font-size: var(--font-size);
-      font-weight: var(--font-weight);
-      letter-spacing: var(--letter-spacing);
-      padding: calc(var(--stroke-width) / 2);
-      -webkit-text-stroke-color: transparent;
-      -webkit-text-stroke-width: var(--stroke-width);
-    }
-
-  </style>
+  <link rel="stylesheet" href="/css/mdb.min.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="bg-light text-black">
 <nav class="navbar navbar-expand-lg navbar-dark bg-black">
