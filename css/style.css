@@ -76,14 +76,6 @@ section.jumbotron .hero-trustpilot .trustpilot-stars {
   position:fixed;
   bottom:0;
 }
-.btn-primary {
-  background-color: var(--mdb-primary);
-  color:var(--mdb-gray-400);
-}
-.btn-primary:hover {
-  color:var(--mdb-light);
-  background-color: var(--mdb-primary);
-}
 .tld {
   transition: all .5s ease;
 }

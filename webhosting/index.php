@@ -1,21 +1,18 @@
 <?php
-include('config.php');
-include('inc/head.php');
+include('../config.php');
+include('../inc/head.php');
 ?>
 <body class="bg-light text-black">
-<?php include('inc/nav.php'); ?>
+<?php include('../inc/nav.php'); ?>
 <!-- Jumbotron -->
 <section class="jumbotron">
   <div class="polygon h-100 bg-primary-gradient"></div>
   <div class="container py-3 py-md-5">
     <div class="row align-items-center">
       <div class="col-lg-7 col-md-10 col-12 mx-auto mb-4 mb-md-5 mb-lg-0 text-center text-lg-start">
-        <p class="h5 fw-bolder text-uppercase text-muted">Web Hosting</p>
-        <p class="h1 fw-bold">Get your website online with everything you need.</p>
-        <p class="lead"><i class="fa-solid fa-check me-2"></i>Fast, reliable and secure</p>
-        <p class="lead"><i class="fa-solid fa-check me-2"></i>Friendly Support Team</p>
-        <p class="lead"><i class="fa-solid fa-check me-2"></i>Transparent Pricing</p>
-        <p class="lead"><i class="fa-solid fa-check me-2"></i>No Hidden Fees</p>
+        <p class="h1 fw-bold">Website Hosting</p>
+        <p class="lead">Affordable, realiable and fast</p>
+        <p class="lead">Website Hosting for Business and Individuals</p>
       </div>
       <div class="col-lg-5 d-none d-lg-block position-relative">
         <img src="/img/showcase1.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-9">
@@ -43,53 +40,6 @@ include('inc/head.php');
               <img src="/img/trustpilot-light.svg" class="img-fluid">
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container py-4">
-    <p class="h2 text-center fw-bold">What do you need from us?</p>
-    <div class="row">
-      <div class="col-md-3 mb-2">
-        <div class="bg-white shadow rounded-5 p-2 h-100">
-          <p class="fw-bold text-center">I'm Personal</p>
-          <p>
-            For clients who are intending to use their website for personal use.
-            We would recommend the Small Website Hosting Package for £1, and nothing more than the Medium Website Hosting Package for £2, depending on your requirements.
-          </p>
-          <a href="/webhosting" class="btn btn-primary fw-bold btn-block">Pricing</a>
-        </div>
-      </div>
-      <div class="col-md-3 mb-2">
-        <div class="bg-white shadow rounded-5 p-2 h-100">
-          <p class="fw-bold text-center">I'm a Small Business</p>
-          <p>
-            For clients who own or manage a small business.
-            We would recommend the Small Website Hosting Package for £1 if you only need 1 email, or the Medium Website Hosting Package for £2 if you need more.
-          </p>
-          <a href="/webhosting" class="btn btn-primary fw-bold btn-block">Pricing</a>
-        </div>
-      </div>
-      <div class="col-md-3 mb-2">
-        <div class="bg-white shadow rounded-5 p-2 h-100">
-          <p class="fw-bold text-center">I'm a Business</p>
-          <p>
-            For clients who own or manage a buisness or ecommerce.
-            We would recommend the Medium Website Hosting Package for £2 depending on the requirements and size of the website that you need.
-          </p>
-          <a href="/webhosting" class="btn btn-primary fw-bold btn-block">Pricing</a>
-        </div>
-      </div>
-      <div class="col-md-3 mb-2">
-        <div class="bg-white shadow rounded-5 p-2 h-100">
-          <p class="fw-bold text-center">I'm an Enterprise</p>
-          <p>
-            For clients who own or manage a large buisness or franchise.
-            We would recommend the Nitro Website Hosting Package for £3, depending on the size, domains and email accounts that you require.
-          </p>
-          <a href="/webhosting" class="btn btn-primary fw-bold btn-block">Pricing</a>
         </div>
       </div>
     </div>
@@ -188,6 +138,6 @@ include('inc/head.php');
     </div>
   </div>
 </section>
-<?php include('inc/footer.php'); ?>
+<?php include('../inc/footer.php'); ?>
 </body>
 </html>

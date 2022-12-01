@@ -27,7 +27,7 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
         <p class="h5 mb-0">Social Media</h5>
-        <ul class="list-unstyled mb-0">
+        <ul class="list-unstyled">
           <li><a href="#!" class="text-light">TrustPilot</a></li>
           <li><a href="#!" class="text-light">Facebook</a></li>
           <li><a href="#!" class="text-light">Instagram</a></li>
