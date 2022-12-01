@@ -1,5 +1,6 @@
 <?php
 include('../config.php');
+$p = 'Web Hosting';
 include('../inc/head.php');
 ?>
 <body class="bg-light text-black">
@@ -11,11 +12,13 @@ include('../inc/head.php');
     <div class="row align-items-center">
       <div class="col-lg-7 col-md-10 col-12 mx-auto mb-4 mb-md-5 mb-lg-0 text-center text-lg-start">
         <p class="h1 fw-bold">Website Hosting</p>
-        <p class="lead">Affordable, realiable and fast</p>
-        <p class="lead">Website Hosting for Business and Individuals</p>
+        <p class="lead"><i class="fa-solid fa-check me-2"></i>Fast, reliable and secure</p>
+        <p class="lead"><i class="fa-solid fa-check me-2"></i>For business or personal use</p>
+        <p class="lead"><i class="fa-solid fa-check me-2"></i>Affordable and competitive pricing</p>
+        <p class="lead"><i class="fa-solid fa-check me-2"></i>24 Hour Expert Support</p>
       </div>
       <div class="col-lg-5 d-none d-lg-block position-relative">
-        <img src="/img/showcase1.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-9">
+        <img src="/img/showcase2.png" alt width="400" height="525" class="img-fluid shadow-lg rounded-9">
         <div class="hero-trustpilot rounded-9 bg-white p-4 position-absolute shadow">
           <div class="trustpilot-logo">
             <a href="https://www.trustpilot.com/review/amethysthosting.co.uk" target="_blank">
@@ -38,6 +41,158 @@ include('../inc/head.php');
             </div>
             <div class="col-6">
               <img src="/img/trustpilot-light.svg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-lg-4 d-none d-lg-block">
+        <div class="card h-100 p-3 shadow">
+          <p class="h2 m-0 text-center">Small</h2>
+          <p class="lead m-0 fw-bold text-primary text-center">£1<span class="fw-normal small text-muted">/mo</span></p>
+          <hr>
+          <p class="lead m-0"><strong>2</strong> Subdomains</p>
+          <p class="lead m-0"><strong>0</strong> Addon Domains</p>
+          <p class="lead m-0"><strong>5</strong> SQL Databases</p>
+          <p class="lead m-0"><strong>1</strong> Email Account</p>
+          <p class="lead m-0"><strong>5GB</strong> SSD Storage</p>
+          <p class="lead m-0"><strong>Unmetered</strong> Bandwidth</p>
+          <p class="lead m-0"><strong>2GB</strong> RAM</p>
+          <p class="lead m-0"><strong>2TBPS</strong> DDOS Protection</p>
+          <p class="lead m-0"><strong>1</strong> Core CPU</p>
+          <p class="lead m-0"><strong>Free</strong> Daily Backups</p>
+          <p class="lead m-0"><strong>Free</strong> Malware Scanning</p>
+          <p class="lead m-0"><strong>Free</strong> SSL Certificates</p>
+          <p class="lead m-0"><strong>200+</strong> One Click Installs</p>
+          <a class="btn btn-primary btn-block btn-lg mt-3">Buy Now</a>
+        </div>
+      </div>
+      <div class="col-lg-4 d-none d-lg-block">
+        <div class="card h-100 p-3 shadow">
+          <p class="h2 text-center m-0">Medium</h2>
+          <p class="lead m-0 fw-bold text-primary text-center">£2<span class="fw-normal small text-muted">/mo</span></p>
+          <hr>
+          <p class="lead m-0"><strong>5</strong> Subdomains</p>
+          <p class="lead m-0"><strong>1</strong> Addon Domains</p>
+          <p class="lead m-0"><strong>20</strong> SQL Databases</p>
+          <p class="lead m-0"><strong>20</strong> Email Accounts</p>
+          <p class="lead m-0"><strong>10GB</strong> SSD Storage</p>
+          <p class="lead m-0"><strong>Unmetered</strong> Bandwidth</p>
+          <p class="lead m-0"><strong>2GB</strong> RAM</p>
+          <p class="lead m-0"><strong>2TBPS</strong> DDOS Protection</p>
+          <p class="lead m-0"><strong>1</strong> Core CPU</p>
+          <p class="lead m-0"><strong>Free</strong> Daily Backups</p>
+          <p class="lead m-0"><strong>Free</strong> Malware Scanning</p>
+          <p class="lead m-0"><strong>Free</strong> SSL Certificates</p>
+          <p class="lead m-0"><strong>200+</strong> One Click Installs</p>
+          <a class="btn btn-primary btn-block btn-lg mt-3">Buy Now</a>
+        </div>
+      </div>
+      <div class="col-lg-4 d-none d-lg-block">
+        <div class="card h-100 p-3 shadow">
+          <p class="h2 m-0 text-center">Nitro</h2>
+          <p class="lead m-0 fw-bold text-primary text-center">£3<span class="fw-normal small text-muted">/mo</span></p>
+          <hr>
+          <p class="lead m-0"><strong>Unmetered</strong> Subdomains</p>
+          <p class="lead m-0"><strong>Unmetered</strong> Addon Domains</p>
+          <p class="lead m-0"><strong>Unmetered</strong> SQL Databases</p>
+          <p class="lead m-0"><strong>Unmetered</strong> Email Accounts</p>
+          <p class="lead m-0"><strong>Unmetered</strong> SSD Storage</p>
+          <p class="lead m-0"><strong>Unmetered</strong> Bandwidth</p>
+          <p class="lead m-0"><strong>2GB</strong> RAM</p>
+          <p class="lead m-0"><strong>2TBPS</strong> DDOS Protection</p>
+          <p class="lead m-0"><strong>1</strong> Core CPU</p>
+          <p class="lead m-0"><strong>Free</strong> Daily Backups</p>
+          <p class="lead m-0"><strong>Free</strong> Malware Scanning</p>
+          <p class="lead m-0"><strong>Free</strong> SSL Certificates</p>
+          <p class="lead m-0"><strong>200+</strong> One Click Installs</p>
+          <a class="btn btn-primary btn-block btn-lg mt-3">Buy Now</a>
+        </div>
+      </div>
+      <div class="col-12 d-lg-none my-2">
+        <div class="card p-3 shadow">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-3 d-flex flex-column align-items-center justify-content-center"> 
+                <p class="h2 m-0">Small</p>
+                <p class="m-0 fw-bold text-primary">£1  <span class="fw-normal small text-muted">/mo</span></p>
+              </div>
+              <div class="col d-flex flex-column align-items-center justify-content-center"> 
+                <p class="m-0 small"><strong>2</strong> Subdomains</p>
+                <p class="m-0 small"><strong>0</strong> Addon Domains</p>
+                <p class="m-0 small"><strong>5</strong> SQL Databases</p>
+                <p class="m-0 small"><strong>1</strong> Email Account</p>
+                <p class="m-0 small"><strong>5GB</strong> SSD Storage</p>
+              </div>
+              <div class="col-12 col-xs-4 col-sm-3">
+                <a class="btn btn-primary btn-block btn-lg d-flex justify-content-center align-items-center h-100">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-lg-none my-2">
+        <div class="card p-3 shadow">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-3 d-flex flex-column align-items-center justify-content-center"> 
+                <p class="h2 m-0">Medium</p>
+                <p class="m-0 fw-bold text-primary">£2<span class="fw-normal small text-muted">/mo</span></p>
+              </div>
+              <div class="col d-flex flex-column align-items-center justify-content-center"> 
+                <p class="m-0 small"><strong>5</strong> Subdomains</p>
+                <p class="m-0 small"><strong>1</strong> Addon Domains</p>
+                <p class="m-0 small"><strong>20</strong> SQL Databases</p>
+                <p class="m-0 small"><strong>20</strong> Email Accounts</p>
+                <p class="m-0 small"><strong>10GB</strong> SSD Storage</p>
+              </div>
+              <div class="col-12 col-xs-4 col-sm-3">
+                <a class="btn btn-primary btn-block btn-lg d-flex justify-content-center align-items-center h-100">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-lg-none my-2">
+        <div class="card p-3 shadow">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-3 d-flex flex-column align-items-center justify-content-center"> 
+                <p class="h2 m-0">Nitro</p>
+                <p class="m-0 fw-bold text-primary">£3<span class="fw-normal small text-muted">/mo</span></p>
+              </div>
+              <div class="col d-flex flex-column align-items-center justify-content-center"> 
+                <p class="m-0 small"><strong>Unmetered</strong> Subdomains</p>
+                <p class="m-0 small"><strong>Unmetered</strong> Addon Domains</p>
+                <p class="m-0 small"><strong>Unmetered</strong> SQL Databases</p>
+                <p class="m-0 small"><strong>Unmetered</strong> Email Accounts</p>
+                <p class="m-0 small"><strong>Unmetered</strong> SSD Storage</p>
+              </div>
+              <div class="col-12 col-xs-4 col-sm-3">
+                <a class="btn btn-primary btn-block btn-lg d-flex justify-content-center align-items-center h-100">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 my-2">
+        <div class="card p-3 shadow">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center">
+                <p class="h3 mb-3 mb-lg-0">Not Sure?</p>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 d-flex justify-content-center align-items-center">
+                <p class="m-0">If you're not sure, you can always contact us! We'll help you pick what's right for you.</p>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                <a class="btn btn-primary btn-block d-flex justify-content-center align-items-center h-100">Contact Us</a>
+              </div>
             </div>
           </div>
         </div>
